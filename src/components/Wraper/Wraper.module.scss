@@ -1,0 +1,14 @@
+.wraper {
+    margin: 15px auto;
+    max-width: 1200px;
+    min-width: auto;
+}
+
+@media (max-width: 480p) {
+    .wraper {
+        margin: 15px auto;
+        max-width: 80%;
+        min-width: auto;
+    }
+    
+}
