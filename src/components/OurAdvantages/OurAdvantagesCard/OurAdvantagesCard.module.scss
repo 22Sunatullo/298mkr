@@ -1,0 +1,23 @@
+.ourCard {
+    padding: 11%;
+    background: #FFF;
+
+    p {
+        max-width: 232px;
+        margin-top: 4%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ourCard {
+        p {
+            font-size: 7px;
+            max-width: 87px;
+        }
+
+        img {
+            width: 18px;
+            height: 18px;
+        }
+    }
+}

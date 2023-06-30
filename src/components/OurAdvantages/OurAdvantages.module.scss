@@ -1,0 +1,32 @@
+.cardGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 24px;
+}
+
+.title{
+    h1{
+      text-align: center;
+      margin-top: 10%;
+      margin-bottom: 3%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .cardGrid{
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    .maxw{
+        width: 93%;
+        margin: 0 auto;
+    }
+    .title{
+        h1{
+            font-size: 20px;
+            text-align: left;
+        }
+    }
+}

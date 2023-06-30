@@ -3,15 +3,31 @@ import Header from '../Header/Header';
 import ResidentalComplex from '../ResidentalComplex/ResidentalComplex';
 import { HasUp } from '../HasUp/HasUp';
 import AboutComplex from '../AboutComplex/AboutComplex';
+import { Wrapper } from '../Wrapper/Wraper';
+import OurAdvantages from '../OurAdvantages/OurAdvantages';
+import GeneralLoyaut from '../GeneralLoyaut/GeneralLoyaut';
+import { Apartments } from '../Apartments/Apartments';
+import { Gallery } from '../Gallery/Gallery';
+import { StagesOfConstruction } from '../StagesOfConstruction/StagesOfConstruction';
+
+
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <ResidentalComplex/>
-      <HasUp/>
-      <AboutComplex/>
+      <Header />
+      <ResidentalComplex />
+      <HasUp />
+      <AboutComplex />
+      <Wrapper>
+        <OurAdvantages />
+        <GeneralLoyaut />
+        <Apartments />
+        <Gallery />
+        <StagesOfConstruction />
+      </Wrapper>
     </div>
   );
 }
+
 
 export default App;
