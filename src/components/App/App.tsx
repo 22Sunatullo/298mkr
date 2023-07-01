@@ -9,6 +9,8 @@ import GeneralLoyaut from '../GeneralLoyaut/GeneralLoyaut';
 import { Apartments } from '../Apartments/Apartments';
 import { Gallery } from '../Gallery/Gallery';
 import { StagesOfConstruction } from '../StagesOfConstruction/StagesOfConstruction';
+import { Footter } from '../Footter/Footter';
+import { ByDeveloped } from '../ByDeveloped/ByDeveloped';
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Gallery />
         <StagesOfConstruction />
       </Wrapper>
+      <Footter/>
+      <ByDeveloped/>
     </div>
   );
 }

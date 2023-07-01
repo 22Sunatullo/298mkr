@@ -1,0 +1,40 @@
+.developed {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.container {
+    background: #FFF;
+    padding: 1%;
+}
+
+.developed {
+    h4 {
+        color: #262626;
+        font-size: 14px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    a {
+        color: var(--secondary, #262626);
+        font-size: 14px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+
+.yelow {
+    color: #FFC527;
+}
+
+.red{
+    color: #D3001A;
+}

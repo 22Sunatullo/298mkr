@@ -6,11 +6,11 @@ const Header = () => {
     const [nav, setNav] = useState(false)
     return (
         <header className={style.header}>
-            <nav className={style.container}>
-                <nav className="logo">
+            <div className={style.container}>
+                <div className="logo">
                     <img src="/assets/logo/logo298.svg" alt="" />
-                </nav>
-                <nav className={
+                </div>
+                <div className={
             nav ? [style.btnOver, style.active].join('') : [style.btnOver, ''].join('')
           }>
                     <nav className={style.navigation}>
@@ -22,19 +22,11 @@ const Header = () => {
                             <li><a href="#">Контакты</a></li>
                         </ul>
                     </nav>
-                </nav>
-            </nav>
-            <nav onClick={() => setNav(!nav)} className={style.burger}>
-                    {nav ? (
-                        <button>
-                            <img src="/assets/logo/X.svg" alt="menu" />
-                        </button>
-                    ) : (
-                        <button>
-                            <img src="/assets/logo/menu.svg" alt="22" />
-                        </button>
-                    )}
-                </nav>
+                </div>
+            </div>
+            <button onClick={() => setNav(!nav)} className={style.burger}>
+                   <img src={`/assets/logo/${nav? 'X' : 'menu' }.svg`} alt="menu" />
+            </button>
         </header>
     )
 }

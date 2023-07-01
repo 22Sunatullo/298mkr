@@ -1,49 +1,53 @@
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1280px;
     margin: 16px auto;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navigation{
-    ul{
+
+.navigation {
+    ul {
         display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 44px;
     }
-    li{
+
+    li {
         list-style: none;
     }
 }
 
-.burger{
+.burger {
     display: none;
 }
 
 @media (max-width: 480px) {
-    .burger{
+    .burger {
         display: block;
-        button{
-            background: none;
-            border: none;
-        }
+        background: none;
+        border: none;
     }
-    .container{
+
+    .container {
         display: block;
         width: 80%;
     }
-    .navigation{
-        ul{
+
+    .navigation {
+        ul {
             display: block;
         }
     }
-    .btnOver{
+
+    .btnOver {
         flex-direction: column;
         justify-content: center;
         position: absolute;
@@ -54,8 +58,9 @@
         height: 100vh;
         z-index: 10;
         transition: left 1s;
-       
+
     }
+
     .active {
         left: 0;
     }
