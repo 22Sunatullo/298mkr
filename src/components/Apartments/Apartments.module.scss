@@ -29,6 +29,20 @@
     border: 1px solid var(--secondary, #262626);
     padding: 1%;
     background: none;
+
+    &.active {
+        background: var(--primery, #FFC527);
+        box-shadow: 0px 2px 10px 0px rgba(255, 197, 39, 0.40);
+        border: none;
+
+        
+        color: var(--whit, #FFF);
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14px;
+    }
 }
 
 
@@ -50,7 +64,7 @@
     }
 }
 
-.mobileTable{
+.mobileTable {
     display: none;
 }
 
@@ -62,11 +76,11 @@
     }
 
 
-    .mobileTable{
+    .mobileTable {
         display: block;
         margin-top: 4%;
 
-        select{
+        select {
             border-radius: 50px;
             border: 1px solid var(--secondary, #262626);
             padding: 10% 1%;
@@ -87,12 +101,12 @@
     }
 
 
-    .table{
+    .table {
         display: none;
     }
 
-    .title{
-        h1{
+    .title {
+        h1 {
             font-size: 20px;
         }
     }
