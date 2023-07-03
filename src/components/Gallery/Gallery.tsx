@@ -8,7 +8,7 @@ import styles from './Gallery.module.scss'
 
 export const Gallery = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="gallery">
             <div className={styles.title}>
                 <h1>Галерея</h1>
             </div>
@@ -26,7 +26,6 @@ export const Gallery = () => {
                       slidesPerView: 2.1,
                     },
                   }}
-                loop = {true}
                 >
                     {
                         DataGalery.map(el => {

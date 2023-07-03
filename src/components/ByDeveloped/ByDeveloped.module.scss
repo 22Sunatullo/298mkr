@@ -1,5 +1,5 @@
 .developed {
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -37,4 +37,18 @@
 
 .red{
     color: #D3001A;
+}
+
+@media (max-width: 480px) {
+    .developed{
+        margin: 5% auto;
+        width: 93%;
+
+        h4{
+            font-size: 7px;
+        }
+        a{
+            font-size: 7px;
+        }
+    }
 }

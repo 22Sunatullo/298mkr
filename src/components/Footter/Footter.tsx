@@ -3,7 +3,7 @@ import styles from './Footter.module.scss';
 
 export const Footter = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id='contacts'>
 
 
         <div className={styles.containerFooter}>
@@ -14,7 +14,7 @@ export const Footter = () => {
 
 
             <div className={styles.FormContainer}>
-                <form action="" className={styles.Form}>
+                <form action="" id='input' className={styles.Form}>
                     <input type="text" placeholder="Имя" className={styles.input}/>
                     <input type="tel" placeholder="Номер телефона" className={styles.input}/>
                     <button className={styles.button}>Отправить</button>
@@ -36,7 +36,7 @@ export const Footter = () => {
 
                     <div className={styles.socialNetwork}>
                         <h5 className={styles.nameContact}>Соц-сети</h5>
-                        <div className="icons">
+                        <div className={styles.icons}>
                             <img src="/assets/logo/instagram.svg" alt="" />
                             <img src="/assets/logo/facebook.svg" alt="" />
                         </div>

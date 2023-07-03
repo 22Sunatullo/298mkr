@@ -8,7 +8,7 @@ import styles from './GeneralLoyaut.module.scss'
 
 const GeneralLoyaut = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="general">
       <div className={styles.title}>
         <h1>Общая планировка</h1>
       </div>
@@ -18,7 +18,7 @@ const GeneralLoyaut = () => {
           spaceBetween={15}
           breakpoints={{
             "@0.48": {
-              slidesPerView: 2.2,
+              slidesPerView: 1.2,
             },
             "@1 .48": {
               slidesPerView: 3.2,

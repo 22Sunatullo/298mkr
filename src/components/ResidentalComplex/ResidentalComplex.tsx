@@ -8,9 +8,7 @@ const ResidentalComplex = () => {
   return (
 
     <div className={style.container}>
-      <Wrapper>
         <Title />
-      </Wrapper>
       <Background />
     </div>
 

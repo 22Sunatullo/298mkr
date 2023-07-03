@@ -1,12 +1,12 @@
-import style from './AboutComplex.module.scss';
+import styles from './AboutComplex.module.scss';
 
 const AboutComplex = () => {
     return (
-        <div className={style.imageAbout}>
+        <div className={styles.imageAbout}>
             <div >
                 <img src="/assets/background/back2.png" alt="" />
             </div>
-            <div>
+            <div className={styles.title}>
                 <h1>О жилом комплексе</h1>
                 <p>
                     ООО «Ахмаджон 2020» реализует строительство многофункционального жилого комплекса «298 mkr».

@@ -4,7 +4,7 @@ import style from './OurAdvantages.module.scss'
 
 const OurAdvantages = () => {
   return (
-    <div className={style.maxw}>
+    <div className={style.container} id="advantages">
         <div className={style.title}>
             <h1>Наши преимущества</h1>
         </div>

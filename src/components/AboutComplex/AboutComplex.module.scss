@@ -3,15 +3,40 @@
     align-items: center;
     justify-content: space-around;
     gap: 20px;
+    max-width: 1343px;
+    margin: 0 auto;
     img{
         width: 100%;
     }
 }
 
+.title{
+    width: 50%;
+    h1{
+        margin-bottom: 5%;
+        font-weight: 500;
+    }
+    p{
+        max-width: 486px;
+        margin-top: 1%;
+    }
+}
 
 @media (max-width: 480px) {
     .imageAbout{
         flex-direction: column-reverse;
         margin-top: 15%;
+    }
+
+    .title{
+        width: 93%;
+
+        h1{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 10px;
+        }
     }
 }

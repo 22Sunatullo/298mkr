@@ -50,6 +50,10 @@
     }
 }
 
+.mobileTable{
+    display: none;
+}
+
 
 @media (max-width: 480px) {
     .apartmentsContainer {
@@ -57,8 +61,39 @@
         gap: 16px;
     }
 
+
+    .mobileTable{
+        display: block;
+        margin-top: 4%;
+
+        select{
+            border-radius: 50px;
+            border: 1px solid var(--secondary, #262626);
+            padding: 10% 1%;
+            background: none;
+        }
+    }
+
     .container {
         width: 93%;
-        margin: 0 auto;
+        margin: 20% auto;
+    }
+
+
+    .containerTitle {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .table{
+        display: none;
+    }
+
+    .title{
+        h1{
+            font-size: 20px;
+        }
     }
 }
