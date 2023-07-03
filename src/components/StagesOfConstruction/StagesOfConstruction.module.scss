@@ -20,11 +20,16 @@
     justify-content: center;
     gap: 10px;
 
-    select {
-        padding: 1% 1%;
-        border-radius: 50px;
-        border: 1px solid var(--secondary, #262626);
+}
+
+.select{
+    padding: 1% 1%;
+    border-radius: 50px;
+    border: 1px solid var(--secondary, #262626);
+    background: none;
+    select{
         background: none;
+        border: none;   
     }
 }
 

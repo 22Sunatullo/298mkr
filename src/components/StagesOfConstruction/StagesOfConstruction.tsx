@@ -12,12 +12,20 @@ export const StagesOfConstruction = () => {
 
 
       <div className={styles.btnContainer}>
-        <select name="" id="">
-          <option value="">2023</option>
-        </select>
-        <select name="" id="">
-          <option value="">Январь</option>
-        </select>
+        <div className={styles.select}>
+          <select name="" id="">
+            <option value="">2023</option>
+            <option value="">2024</option>
+            <option value="">2025</option>
+          </select>
+        </div>
+
+        <div className={styles.select}>
+          <select name="" id="">
+            <option value="">Январь</option>
+          </select>
+        </div>
+
       </div>
 
       <div className={styles.imageContainer}>

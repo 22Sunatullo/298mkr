@@ -11,6 +11,7 @@ import { Gallery } from '../Gallery/Gallery';
 import { StagesOfConstruction } from '../StagesOfConstruction/StagesOfConstruction';
 import { Footter } from '../Footter/Footter';
 import { ByDeveloped } from '../ByDeveloped/ByDeveloped';
+import { Infrastructure } from '../Infrastructure/Infrastructure';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <AboutComplex />
       <Wrapper>
         <OurAdvantages />
+        <Infrastructure/>
         <GeneralLoyaut />
         <Apartments />
         <Gallery />

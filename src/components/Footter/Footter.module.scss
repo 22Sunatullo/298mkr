@@ -160,6 +160,10 @@
             margin-top: 5%;
         }
     }
+   
+    .nameContact{
+        font-size: 12px;
+    }
 
     .Form {
         grid-template-columns: 1fr 1fr;
@@ -189,6 +193,17 @@
 
     .numberTelefon {
         margin-left: -10%;
+        a{
+            font-size: 10px;
+        }
+    }
+
+    .icons{
+        img{
+            width: 16px;
+            height: 16px;
+            margin-top: 5%;
+        }
     }
 
     .input {

@@ -1,4 +1,4 @@
-import style from './GeneralCard.module.scss';
+import styles from './GeneralCard.module.scss';
 
 interface TypeGeneral {
     img: string,
@@ -7,11 +7,11 @@ interface TypeGeneral {
 
 export const GeneralCard = ({img, title}:TypeGeneral) => {
   return (
-    <div>
-        <div className={style.container}>
+    <div >
+        <div className={styles.container}>
             <img src={img} alt="" />
         </div>
-        <p>{title}</p>
+        <p className={styles.title}>{title}</p>
     </div>
   )
 }
