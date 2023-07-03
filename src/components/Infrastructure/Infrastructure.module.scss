@@ -1,8 +1,9 @@
 .container {
   display: grid;
   grid-template-rows: repeat(19, 47px);
-  grid-template-columns: 10% 32% 69.5%;
+  grid-template-columns: 27% 32% 46.5%;
   justify-content: space-between;
+  margin-top: 8%;
 }
 
 .item1 {
@@ -33,16 +34,20 @@
 .item5 {
   &:nth-of-type(5) {
     grid-row: span 8;
+    margin-top: 23%;
   }
 }
 
 .item6 {
+  margin-left: 93%;
   &:nth-of-type(6) {
     grid-row: span 6;
   }
 }
-.item6 {
+.item7 {
+  margin-left: 100%;
   &:nth-of-type(7) {
     grid-row: span 3;
+    margin-top: -18%;
   }
 }
